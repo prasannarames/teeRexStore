@@ -1,0 +1,52 @@
+.nav--container {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 0.8em;
+}
+.logo {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav--list {
+  display: flex;
+  align-items: center;
+}
+.nav--list-item {
+  list-style: none;
+  margin: 0.5em;
+  border: 2px solid gray;
+  border-radius: 3px;
+  padding: .265em .465em;
+  color: black;
+}
+.nav--list-item:hover {
+  background-color: white;
+  color: black;
+}
+
+.link,
+.link:visited,
+.link:active {
+  text-decoration: none;
+}
+
+.cart-count {
+  padding: 0 3px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
+@media (min-width: 680px) {
+  .nav--container {
+    padding: 0 2em;
+  }
+  .logo {
+    font-size: 26px;
+  }
+}

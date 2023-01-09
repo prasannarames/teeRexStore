@@ -1,0 +1,75 @@
+.card--container {
+  display: grid;
+  grid-template: auto auto / repeat(1, 1fr);
+  gap: 0.2em;
+  margin: 0.8em;
+}
+
+.card {
+  width: 260px;
+  height: 200px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: inline-block;
+}
+
+.card--name {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: lightgray;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card--img {
+  height: 100px;
+  width: 180px;
+  object-fit: cover;
+}
+.card--info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.cart--btn {
+  color: black;
+  background-color: lightgray;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.cart--btn:hover,
+.cart--btn:focus {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.card--text {
+  margin-left: 6px;
+  font-weight: 500;
+}
+
+@media (min-width: 480px) {
+  .card--container {
+    grid-template: auto auto / repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .card--container {
+    grid-template: auto auto / repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .card--container {
+    grid-template: auto auto / repeat(5, 1fr);
+  }
+}
