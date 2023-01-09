@@ -12,26 +12,26 @@ export default function Cart() {
   return (
     <section className="cart--container">
       {cart?.map(({ product }) => (
-        <div className="cart--card">
+        <div className="cart--card mr">
           <div>
             <img
-              className="cart--image"
+              className="cart--image mr"
               src={product.imageURL}
               alt="products"
             />
           </div>
-          <div className="cart--details">
+          <div className="cart--details mr">
             <p>{product.name}</p>
             <p>
               {product.price} {product.currency}
             </p>
           </div>
-          <div className="cart--qty-btn">
+          <div className="cart--qty-btn mr">
             <button onClick={() => handleQuantity(product, +1)}>➕</button>
             <span className="cart--qty">{product.quantity}</span>
             <button onClick={() => handleQuantity(product, -1)}>➖</button>
           </div>
-          <div className="cart--delete-btn">
+          <div className="cart--delete-btn mr">
             <button onClick={() => handleDelete(product.id)}>Delete</button>
           </div>
         </div>
