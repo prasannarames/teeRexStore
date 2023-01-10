@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c29b7c19.css",
-    "main.js": "/static/js/main.bb9616df.js",
-    "index.html": "/index.html",
-    "main.c29b7c19.css.map": "/static/css/main.c29b7c19.css.map",
-    "main.bb9616df.js.map": "/static/js/main.bb9616df.js.map"
+    "main.css": "/teeRexStore/static/css/main.c29b7c19.css",
+    "main.js": "/teeRexStore/static/js/main.bb9616df.js",
+    "index.html": "/teeRexStore/index.html",
+    "main.c29b7c19.css.map": "/teeRexStore/static/css/main.c29b7c19.css.map",
+    "main.bb9616df.js.map": "/teeRexStore/static/js/main.bb9616df.js.map"
   },
   "entrypoints": [
     "static/css/main.c29b7c19.css",
