@@ -1,7 +1,7 @@
 {
-  "homepage": "http://prasannarames.github.io/teeRexStore",
   "name": "tee-rex-store",
   "version": "0.1.0",
+  "homepage": "https://prasannarames.github.io/teeRexStore",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
