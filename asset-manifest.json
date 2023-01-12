@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/teeRexStore/static/css/main.c29b7c19.css",
-    "main.js": "/teeRexStore/static/js/main.bb9616df.js",
+    "main.js": "/teeRexStore/static/js/main.7e33e739.js",
     "index.html": "/teeRexStore/index.html",
     "main.c29b7c19.css.map": "/teeRexStore/static/css/main.c29b7c19.css.map",
-    "main.bb9616df.js.map": "/teeRexStore/static/js/main.bb9616df.js.map"
+    "main.7e33e739.js.map": "/teeRexStore/static/js/main.7e33e739.js.map"
   },
   "entrypoints": [
     "static/css/main.c29b7c19.css",
-    "static/js/main.bb9616df.js"
+    "static/js/main.7e33e739.js"
   ]
 }
