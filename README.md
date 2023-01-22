@@ -2,7 +2,7 @@
 
 - This project is one of the challenges from GeekTrust platform.
 - Which I created with required functionalities with a simple UI.
-- Web first design.(currently it's not responsive).
+- Responsive design (currently for mobile and desktop)
 - To run this project on your local environment follow below steps:
 
 ## Available Scripts
